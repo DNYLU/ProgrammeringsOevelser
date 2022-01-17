@@ -10,7 +10,7 @@ public class User {
 
         char[] chars = userID.toCharArray();
         for (char c : chars) {
-            if (!userID.)
+           // if (!userID.)
         }
 
     }
