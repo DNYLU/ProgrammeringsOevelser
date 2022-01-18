@@ -12,7 +12,6 @@ public class Article {
     }
 
 
-
     public String getLongestWord() {
         String longestWord = "";
         String[] bodyArray = this.body.split(" ");

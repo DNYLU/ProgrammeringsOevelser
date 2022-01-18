@@ -10,6 +10,7 @@ public class Card {
 
     public void beats() {
         Random random = new Random();
+
         int p1Value = random.nextInt(value.length);
         int p1Suit = random.nextInt(suit.length);
 
