@@ -16,7 +16,7 @@ public class Card {
         int p2Value = random.nextInt(value.length);
         int p2Suit = random.nextInt(suit.length);
 
-        if (p1Suit < p2Suit) {
+        if (p1Suit < p2Suit) { //[p1Suit] er elementets plads
             System.out.println(suit[p1Suit] + " " + value[p1Value] + " slår " +
                     suit[p2Suit] + " " + value[p2Value] + "\nDu vandt!");
         } else if (p1Suit == p2Suit && p1Value > p2Value) {
