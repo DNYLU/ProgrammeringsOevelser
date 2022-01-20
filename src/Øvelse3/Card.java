@@ -3,7 +3,8 @@ package Øvelse3;
 import java.util.Random;
 
 public class Card {
-
+    // int[] value = new Int[14]
+    // value[0] = 3;  // Tilføjer til index 0
     int[] value = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
     String[] suit = {"Hearts", "Diamonds", "Spades", "Clubs"};
 
